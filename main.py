@@ -11,6 +11,11 @@ class Resource:
         self.name = name
         self.count = count
 
+    def allocate(self):
+        # TODO - returns an index or None
+    def release(self, index):
+        # TODO - returns success bool
+
 class ReservationHandler(http.server.BaseHTTPRequestHandler):
     def do_POST(self):
         pattern = "^/reserve/(.*)$"
