@@ -1,0 +1,9 @@
+{
+    "resources": [
+        {"name": "got10", "count": 10, "auth_token": "supersecret0"},
+        {"name": "singleton_1", "count": 1, "auth_token": "supersecret1"},
+        {"name": "singleton_2", "count": 1, "auth_token": "supersecret2"},
+        {"name": "doubleton", "count": 2, "auth_token": "supersecret3"},
+        {"name": "zero", "count": 0, "auth_token": "supersecret4"}
+    ]
+}
