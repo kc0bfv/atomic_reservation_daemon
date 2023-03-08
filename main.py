@@ -206,7 +206,7 @@ if __name__ == "__main__":
     """
     Needed inputs - list of: resource name, max count
     """
-    port = int(os.environ.get("PORT","80"))
+    port = int(os.environ.get("PORT","8080"))
     host = os.environ.get("HOST","")
 
     parser = argparse.ArgumentParser()
